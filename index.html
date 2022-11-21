@@ -1,0 +1,59 @@
+<!-- Treasure Hunt -->
+<!-- Theme:Holiday's -->
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Holiday Treasure Hunt</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <!-- Header -->
+    <h1>Holiday Treasure Hunt</h1>
+    <!-- Subheader -->
+    <div id="rules">
+      <h2>Rules</h2>
+      <ol>
+        <li> Have fun! </li>
+        <li> If you click on Santa, hopefully you're not on his naughty list.</li>
+        <li> If Santa gives you one gift you win!</li>
+        <li> If Santa gives you one bomb you lose, which means you were naughty!!!</li>
+        </ol>
+    </div>
+    <!-- Table -->
+    <h3 id="result"></h3>
+    <table class="game" border="3">
+        <tr>
+            <td onclick="treasure(0)" id=0>&#127877;</td>
+            <td onclick="treasure(1)" id=1>&#127877;</td>
+            <td onclick="treasure(2)" id=2>&#127877;</td>
+        </tr>
+        <tr>
+          <td onclick="treasure(3)" id=3>&#127877;</td>
+          <td onclick="treasure(4)" id=4>&#127877;</td>
+          <td onclick="treasure(5)" id=5>&#127877;</td>
+        </tr>
+        <tr>
+          <td onclick="treasure(6)" id=6>&#127877;</td>
+          <td onclick="treasure(7)" id=7>&#127877;</td>
+          <td onclick="treasure(8)" id=8>&#127877;</td>
+        </tr>
+    </table>
+    <br/>
+    <!-- Button -->
+    <div class="button1">
+      <button type="button" onclick="location.reload()">Restart Game</button>
+    </div>
+
+    <p>
+        <!-- How do we display something here, like a counter??? -->
+    </p>
+    <!-- Footer -->
+    <footer>
+        &copy Raquel King | Sammy Torres
+        <a href="https://www.foodnetwork.com/" target="_blank"> Foodnetwork </a>
+    </footer>
+<script type="text/javascript" src="treasureHunt.js"></script>
+  </body>
+</html>
